@@ -1,0 +1,45 @@
+$light: #eeeeee;
+$black: #000000;
+$primary: #FF6868;
+$white: #ffffff;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: $light;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+  margin-left: 1.5em;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    margin-right: 1em;
+    li {
+      display: inline-block;
+      margin-right: 1.8em;
+      a {
+        text-decoration: none;
+        color: $black;
+        font-weight: 100;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        padding: 5px;
+        &:hover {
+          transition: all .7s ease;
+          background-color: $primary;
+          color: $white;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
