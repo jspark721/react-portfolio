@@ -3,14 +3,17 @@ import './styles/navigation.scss';
 
 class Navigation extends Component {
   render() {
+    const sections = ['Home', 'About', 'Work', 'Contact'];
+    const navLinks = sections.map( (section, i) => {
+      return (
+        <li key={i}><a href="{'#' + section }">{section}</a></li>
+      )
+    });
     return (
       <nav>
-        <h2 className="logo">JP</h2>
+        <h2 className="logo">{this.props.logo}</h2>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Work</a></li>
-          <li><a href="/">Contact</a></li>
+          {navLinks}
         </ul>
       </nav>
     );
