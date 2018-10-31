@@ -1,7 +1,4 @@
-$light: #eeeeee;
-$black: #000000;
-$primary: #FF6868;
-$white: #ffffff;
+@import './variables.scss';
 
 header {
   height: 80vh;
@@ -20,4 +17,10 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
   }
+}
+
+.location {
+  font-size: 0.7em;
+  margin-top: -5px;
+  color: $primary;
 }
