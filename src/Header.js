@@ -13,7 +13,7 @@ class Header extends Component {
         <h1>{this.props.title}</h1>
         <p>developer & designer</p>
         <p class="location"> seattle, washington</p>
-        <p class="button"><a href="/">{this.props.button}</a></p>
+        <p class="button"><a href="#button" class="main-btn">{this.props.button}</a></p>
       </header>
     );
   }
