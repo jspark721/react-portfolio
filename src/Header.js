@@ -12,7 +12,8 @@ class Header extends Component {
       <header style={background}>
         <h1>{this.props.title}</h1>
         <p>developer & designer</p>
-        <p class="location"> seattle, washington  </p>
+        <p class="location"> seattle, washington</p>
+        <p class="button"><a href="/">{this.props.button}</a></p>
       </header>
     );
   }
