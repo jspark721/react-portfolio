@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
 import './styles/index.css';
 import Navigation from './Navigation';
 import Header from './Header';
@@ -17,10 +16,7 @@ class App extends Component {
   }
 }
 
-ReactDOM.render((
-  <BrowserRouter>
-      <App />
-  </BrowserRouter>
+ReactDOM.render(( <App />
 ), document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
