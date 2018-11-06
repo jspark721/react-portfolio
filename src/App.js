@@ -7,14 +7,12 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 
-import './styles/App.css';
-
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
+        <div>
           <Navigation logo="JP"/>
           <Switch>
             <Route path="/" component= {Home} exact />
