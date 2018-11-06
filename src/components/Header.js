@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 import Background from './img/hero.jpg';
 import './styles/header.scss';
 
-const background = {
-  backgroundImage: `url( ${Background})`,
-};
+// const background = {
+//   backgroundImage: `url( ${Background})`,
+// };
 
 class Header extends Component {
   render() {
     return(
-      <header style={background}>
+      // <header style={background}>
+      <header>
         <h1>{this.props.title}</h1>
         <p>developer & designer</p>
         <p className="location"> seattle, washington</p>
