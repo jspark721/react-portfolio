@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Error404 from './components/Error404'
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/about" component= {About} />
             <Route path="/work" component= {Work} />
             <Route path="/contact" component= {Contact} />
+            <Route component= {Error404} />
           </Switch>
         </div>
       </BrowserRouter>
