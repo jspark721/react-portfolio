@@ -4,13 +4,15 @@ nav {
   display: flex;
   justify-content: space-between;
   background: $light;
-  align-items: center;
+  // align-items: center;
+  height: 0;
 }
 
 .logo {
   font-size: 1.4em;
   margin-left: 1.5em;
   font-family: $sans;
+  color: $light;
   font-weight: 100;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -23,9 +25,10 @@ nav {
     li {
       display: inline-block;
       margin-right: 1.8em;
+      margin-top: 10px;
       a {
         text-decoration: none;
-        color: $black;
+        color: $light;
         font-weight: 100;
         letter-spacing: 3px;
         text-transform: uppercase;
@@ -35,7 +38,7 @@ nav {
         &:hover {
           transition: all .8s ease;
           background-color: $primary;
-          color: $white;
+          color: $black;
           padding: 7px;
         }
       }
