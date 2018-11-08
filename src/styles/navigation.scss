@@ -33,14 +33,27 @@ nav {
         letter-spacing: 3px;
         text-transform: uppercase;
         font-size: 0.8em;
+        border-radius: 10px;
         background-color: rgba($primary,0);
-        padding: 7px;
+        padding: 10px;
         &:hover {
           transition: all .8s ease;
           background-color: $primary;
+          border-radius: 10px;
           color: $black;
-          padding: 7px;
+          padding: 10px;
         }
+      }
+    }
+    .nav-special {
+      background: $primary;
+      border-radius: 10px;
+      color: $black;
+      padding: 10px;
+      &:hover {
+        transition: all .8s ease;
+        background-color: $light;;
+        color: $black;
       }
     }
   }
