@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Navigation from './Navigation';
 import Background from '../img/hero.jpg';
 import '../styles/home.scss';
 
@@ -9,6 +9,7 @@ class Home extends Component {
   render() {
     return(
       <div>
+        <Navigation logo="JP"/>
         <header>
           <div className="header-title">
             <h1>Julie Park</h1>

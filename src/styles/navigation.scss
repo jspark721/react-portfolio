@@ -58,3 +58,21 @@ nav {
     }
   }
 }
+
+.section-nav {
+  height: 75px;
+  a {
+    color: $black;
+  }
+  .logo {
+    color: $black;
+  }
+  ul {
+    li {
+    }
+  }
+  .nav-special {
+    background: $secondary;
+    color: $white;
+  }
+}

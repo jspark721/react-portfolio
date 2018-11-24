@@ -14,7 +14,6 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Navigation logo="JP"/>
           <Switch>
             <Route path="/" component= {Home} exact />
             <Route path="/about" component= {About} />
