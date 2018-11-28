@@ -7,3 +7,16 @@ body {
 .section {
   margin-top: 75px;
 }
+
+.container {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 25%;
+}
+
+.title {
+  background: $primary;
+  padding: 15px 15px 15px 30px;
+  box-shadow: 5px 5px 10px rgba($black, .4);
+}

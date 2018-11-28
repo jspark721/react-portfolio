@@ -75,4 +75,9 @@ nav {
     background: $secondary;
     color: $white;
   }
+  .nav-special {
+    &:hover {
+      background: $primary;
+    }
+  }
 }

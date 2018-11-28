@@ -6,7 +6,12 @@ const About = () => {
   return (
     <div>
       <Navbar logo="JP"/>
-      <p>About</p>
+      <div className="container">
+        <div className="title">
+          <h2>Hi, I'm Julie, a software developer & designer specializing in full-stack web development.</h2>
+        </div>
+        <p>With a heart for design, I love to create elegant, beautiful and responsive web applications.</p>
+      </div>
     </div>
   );
 };
